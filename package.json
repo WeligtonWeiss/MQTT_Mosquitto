@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "babel-node index.js",
+    "publisher": "babel-node publisher.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "7.6.2",
+    "@babel/node": "7.6.2",
+    "@babel/preset-env": "7.9.5"
+  },
+  "dependencies": {
+    "mqtt": "^4.3.7"
+  }
+}
